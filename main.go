@@ -38,6 +38,7 @@ func HandlerUserConfirm(w http.ResponseWriter, req *http.Request) {
 	}
 }
 
+// テンプレートハンドラーテスト
 func gtplHandler(w http.ResponseWriter, r *http.Request) {
 
 	// テンプレートをパースする
